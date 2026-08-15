@@ -1,0 +1,45 @@
+:root {
+  --bg:              #020514;
+  --surface:         #0a1528;
+  --surface-raised:  #111e38;
+  --surface-border:  rgba(64, 123, 167, 0.28);
+  --surface-border-strong: rgba(64, 123, 167, 0.55);
+  --accent:          #c00021;
+  --accent-hover:    #ff002b;
+  --accent-glow:     rgba(192, 0, 33, 0.35);
+  --text-primary:    #f0f4ff;
+  --text-secondary:  #a8c4de;
+  --text-muted:      #6b90af;
+
+  --font-ui:      'Space Grotesk', system-ui, sans-serif;
+  --font-display: 'Orbitron', system-ui, sans-serif;
+
+  color-scheme: dark;
+  font-family: var(--font-ui);
+  font-size: 16px;
+  color: var(--text-primary);
+  background-color: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg);
+  background-image: radial-gradient(circle, rgba(64, 123, 167, 0.18) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
