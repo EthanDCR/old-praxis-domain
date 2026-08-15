@@ -150,6 +150,8 @@ function MigrationCard() {
   )
 }
 
+// #nice
+
 export default function App() {
   const [phase, setPhase] = useState<'splash' | 'migrated'>('splash')
 
